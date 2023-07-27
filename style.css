@@ -19,11 +19,26 @@ img {
      font-size: 20px;
  }
 .topnav {
-    background-color: rgb(143, 143, 143);
+    background-color:rgb(255, 77, 187);
     overflow: hidden;
 }
 .topnav a {
-    float: left 
-    color black 
-    text-align;  
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
 }
+.topnav a:hover {
+    background-color:rgb(255, 162, 219);
+    color: rgb(255, 77, 187);
+}
+
+.aboutcss h1 {
+    font-size: 50px;
+}
+.aboutcss p {
+    font-size: 30px;
+}
+
