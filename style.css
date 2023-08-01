@@ -2,17 +2,12 @@
 body {
     background-color: rgb(255, 162, 219);
 }
-img {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    border-radius: 1em;
-}
+
  h1 {
      text-align:center;
      border-radius: 2000px;
      font-size: 45px;
-     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-family: inherit;
  }
  p {
      text-align: center;
@@ -68,4 +63,25 @@ ul {
 ul {
     text-align: center;
     list-style: inside;
+  }
+
+  @media screen and (max-device-width: 60em){
+    .indexCSS {
+        display: grid;
+        grid-template-columns: 1fr;
+    } 
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    img {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 10em;
+        border-radius: 16px;
+    
+    }
+
   }
