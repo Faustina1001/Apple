@@ -4,6 +4,15 @@
     <link rel="stylesheet" href="style.css">
     <title>Romcoms</title>
     <meta name= "viewport" content="width=device-width, initial-scale=1">
+    <style> 
+        input[type=text] {
+          width: 50%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          box-sizing: border-box;
+          text-align: center;
+        }
+        </style>
 </head>
 
 <body class="indexCSS">
@@ -14,14 +23,19 @@
         <a href="contact.html">Contact</a>
 
     </nav>
+    <h1>Contact Me</h2> 
+    <p>Leave me a message with any suggestion or comments:</p>
+  </div>
 <div class="contact">
-    <form action="mali:faustinatroncoso2007@gmail.com" method="get">
+    <form action=" mail:faustinatroncoso2007@gmail.com" method="get">
         <label for="name">Name</label> <br> 
-        <input type="text" name="name" id="name" />
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
         <br> <br>
-
-        <label for="body">Message</label> <br> 
-        <textarea name="body" cols="35" rows="10"></textarea>
+        <label for="Country">Your Country</label> <br> 
+        <input type="text" id="fname" name="firstname" placeholder="Country...">
+        <br><br> 
+        <label for="body">Message</label> <br>
+        <textarea class="textarea" name="body" cols="55" rows="8"></textarea>
         <br> <br> 
         <input type="Submit" value="Submit">
     </form>
